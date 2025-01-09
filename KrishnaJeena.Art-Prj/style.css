@@ -73,3 +73,19 @@ header{
     padding: 2px 10px;
     font-weight: bold;
 }
+
+main{
+    margin: 0 rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px;
+
+}
+
+main .img{
+    width: 40%;
+    margin: 10px;
+
+}
+
