@@ -3,9 +3,9 @@ const cursor = document.querySelector(".cursor");
 
 const words = ['Awesome', 'Fun', 'Coo', 'Life', "Famours"];
 
-const  typingDelay = 200
-const erasingDelay = 200
-const newLetterDelay = 2000;
+const  typingDelay = 100
+const erasingDelay = 100
+const newLetterDelay = 1000;
 let index = 0;
 let charIndex = 0;
 
