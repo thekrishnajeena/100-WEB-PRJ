@@ -1,17 +1,15 @@
-const btn = document.querySelector('.btn');
-
-const closeIcon = document.querySelector('.close-icon');
-
-const trailerContainer = document.querySelector('.trailer-container');
-
-const video = document.querySelector('video');
+const btn = document.querySelector(".btn");
+const closeIcon = document.querySelector(".close-icon");
+const trailerContainer = document.querySelector(".trailer-container");
+const video = document.querySelector("video");
 
 btn.addEventListener("click", () => {
-    trailerContainer.classList.remove("active");
+  trailerContainer.classList.remove("active");
+  video.play();
 });
 
 closeIcon.addEventListener("click", () => {
-    trailerContainer.classList.add("active");
-    video.pause();
-    video.currentTime = 0;
+  trailerContainer.classList.add("active");
+  video.pause();
+  video.currentTime = 0;
 });
